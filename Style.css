@@ -34,6 +34,22 @@ a{
 nav a :hover{
     color: rgb(230, 210, 38);
 }
+
+/*DISEÑO "imagen principal"*/
+.imgprincipal{
+    max-height: 60%;
+    max-height: 400px;
+    }
+    .txt-sobre-imagen {
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.034);
+    text-shadow:black 1px 1px;
+    height: 60%;
+    width: 60%;
+    font-size:larger;
+    padding: 4px;
+    float: under;
+}
 .Ultimas-Noticias{
     z-index: 1;
     overflow: hidden;
@@ -87,6 +103,30 @@ nav a :hover{
 }
 h5 :hover{
     background-color: black;
-    transition: background-color .3s;
+    transition: background-color .3s    ;
 }
+.SNbox{
+    background-color: rgba(236, 228, 228, 0.856);
+    padding-top: 40px;
+    margin-top: 24px;
+    }
+    
+    .SNimg{
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    }
 
+    /*DISEÑO "SOBRE NOSOTROS"*/
+
+.SNbox{
+    background-color: rgba(236, 228, 228, 0.856);
+    padding-top: 40px;
+    margin-top: 24px;
+
+    }  
+    .SNimg{
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    }
