@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(231, 210, 17), rgb(221, 172, 35));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: black;
+}
+a:hover, a:focus {
+    background-size: 100% 2px;
+    color: rgba(24, 21, 21, 0.767);
+    background-color: black;
+    text-shadow:rgb(8, 8, 8) 0.5px 0.5px;
+}

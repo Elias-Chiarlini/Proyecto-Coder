@@ -1,1 +1,222 @@
-/*# sourceMappingURL=estylo.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+*::-moz-selection {
+  background-color: goldenrod;
+  color: black;
+}
+*::selection {
+  background-color: goldenrod;
+  color: black;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+nav a {
+  font-weight: 56px;
+  padding-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(250, 241, 241);
+}
+
+nav a :hover {
+  color: rgb(230, 210, 38);
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(231, 210, 17), rgb(221, 172, 35));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  color: black;
+}
+
+a:hover, a:focus {
+  background-size: 100% 2px;
+  color: rgba(24, 21, 21, 0.767);
+  background-color: black;
+  text-shadow: rgb(8, 8, 8) 0.5px 0.5px;
+}
+
+.imgprincipal {
+  max-height: 60%;
+  max-height: 400px;
+}
+
+.txt-sobre-imagen {
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.034);
+  text-shadow: black 1px 1px;
+  height: 60%;
+  width: 60%;
+  font-size: larger;
+  padding: 4px;
+  float: under;
+}
+
+.titulosección {
+  padding-top: 4px;
+  margin-top: 2px;
+  font-size: 28px;
+}
+
+.Ultimas-Noticias {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Ultimas-Noticias img {
+  transition: all 0.5s ease;
+}
+
+.Ultimas-Noticias :hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tarjetitas {
+  max-width: 100%;
+  max-height: 10%;
+  margin-top: 16px;
+}
+
+.tarjetitas p {
+  font-size: 14px;
+}
+
+.card {
+  border-style: none;
+}
+
+/*DISEÑO: titulos clickeables*/
+h5 {
+  background-color: goldenrod;
+}
+
+h5 :hover {
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+p {
+  font-size: 14px;
+}
+
+.imagenredonda {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+/*DISEÑO: FOOTER*/
+.mifooter {
+  background-color: rgb(0, 0, 0);
+  margin-top: 24px;
+}
+
+.cajafooter {
+  text-align: center;
+  font-size: 180%;
+  margin: 2em;
+  padding-top: 10px;
+}
+
+.enlace-footer {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(231, 210, 17), rgb(221, 172, 35));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  color: goldenrod;
+}
+
+.enlace-footer a:hover a:focus {
+  background-size: 100% 2px;
+  color: rgb(243, 241, 235);
+  background-color: rgb(253, 239, 239);
+  text-shadow: rgb(233, 226, 226) 0.5px 0.5px;
+}
+
+.cajaletras {
+  color: white;
+}
+
+/*DISEÑO: footer flecha para subir*/
+.coso {
+  color: white;
+  padding-top: 1.8em;
+  display: inline-block; /* or block */
+  position: relative;
+  border-color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  font-size: 16px;
+}
+
+.coso:before {
+  content: "▲";
+  font-size: 0.9em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.7em;
+  border: solid 0.13em white;
+  border-radius: 10em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform 0.5s ease-in;
+}
+
+.coso:hover {
+  color: rgb(238, 184, 37);
+  border-color: rgb(185, 161, 24);
+}
+
+.coso:hover:before {
+  transform: rotate(360deg);
+}
+
+/*DISEÑO: pag: Sobre Nosotros*/
+.SNbox {
+  background-color: rgba(236, 228, 228, 0.856);
+  padding-top: 40px;
+  margin-top: 24px;
+}
+
+.SNimg {
+  height: 300px;
+  width: 300px;
+  align-content: center;
+}
+
+.SNbox {
+  background-color: rgba(236, 228, 228, 0.856);
+  padding-top: 40px;
+  margin-top: 24px;
+}
+
+.SNimg {
+  height: 300px;
+  width: 300px;
+  align-content: center;
+}/*# sourceMappingURL=estylo.css.map */

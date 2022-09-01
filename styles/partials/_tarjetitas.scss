@@ -1,0 +1,22 @@
+.tarjetitas{
+    max-width: 100%;
+    max-height: 10%;
+    margin-top: 16px;
+}
+.tarjetitas p{
+    font-size:14px ;
+}
+.card{
+    border-style: none;
+}
+/*DISEÑO: titulos clickeables*/
+h5{
+    background-color:goldenrod;
+}
+h5 :hover{
+    background-color: black;
+    transition: background-color .3s;
+}
+p{
+    font-size: 14px;
+}
